@@ -1,2 +1,3 @@
 # ExcelOutQRCode
 Excel批量生成二维码
+这是python批量生成二维码工具，喜欢的朋友点个关注吧
