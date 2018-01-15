@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+</head>
+<body>
+    <p>请输入两个数字</p>
+
+
+    <form action="/add/" method="post">
+    a: <input type="text" name="a" ><br>
+    b: <input type="text" name="b" ><br>
+    <select name="c" >
+         <option value="+">+</option>
+         <option value="-">-</option>
+         <option value="*">*</option>
+         <option value="/">/</option>
+    </select>
+    <input type="submit" value="提交">
+        <p>{{ r }}</p>
+    </form>
+</body>
+</html>
